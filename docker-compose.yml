@@ -16,7 +16,7 @@ services:
       - medplum-postgres-data:/var/lib/postgresql/data
     command: postgres -c config_file=/usr/local/etc/postgres/postgres.conf
     ports:
-      - '5432:5432'
+      - '15432:5432' # host 15432 avoids clashing with a locally installed Postgres
   redis:
     image: redis:7
     restart: unless-stopped # for production usage, consider using 'always'

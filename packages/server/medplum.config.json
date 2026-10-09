@@ -18,7 +18,7 @@
   "rateLimitsEnabled": false,
   "database": {
     "host": "localhost",
-    "port": 5432,
+    "port": 15432,
     "dbname": "medplum",
     "username": "medplum",
     "password": "medplum"
