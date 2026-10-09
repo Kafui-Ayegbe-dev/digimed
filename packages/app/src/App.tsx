@@ -59,7 +59,7 @@ export function App(): JSX.Element {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Medplum Super Admin
+                      DigiMed Super Admin
                     </Link>
                     .
                   </>

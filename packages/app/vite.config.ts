@@ -21,7 +21,7 @@ try {
 }
 
 process.env.MEDPLUM_VERSION = packageJson.version + '-' + gitHash;
-process.env.MEDPLUM_APP_NAME ||= 'DigiMed';
+process.env.MEDPLUM_APP_NAME ||= 'DigiMed Admin';
 
 export default defineConfig({
   envPrefix: ['MEDPLUM_', 'GOOGLE_', 'RECAPTCHA_'],
