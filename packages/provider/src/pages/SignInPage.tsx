@@ -25,7 +25,7 @@ export function SignInPage(): JSX.Element {
     >
       <Logo size={32} />
       <Title order={3} py="lg">
-        Sign in to Provider
+        Sign in to DigiMed
       </Title>
     </SignInForm>
   );

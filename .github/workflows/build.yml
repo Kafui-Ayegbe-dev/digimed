@@ -99,7 +99,7 @@ jobs:
         # Rules:
         #   - packages/app                  -> app preview
         #   - packages/docs                 -> docs preview
-        #   - examples/medplum-provider     -> provider preview
+        #   - packages/provider     -> provider preview
         #   - packages/{core,react,react-hooks} -> all previews (shared deps)
         run: |
           BASE_SHA="${{ github.event.pull_request.base.sha }}"
@@ -123,7 +123,7 @@ jobs:
 
           if changed '^packages/app/'; then deploy_app=true; fi
           if changed '^packages/docs/'; then deploy_docs=true; fi
-          if changed '^examples/medplum-provider/'; then deploy_provider=true; fi
+          if changed '^packages/provider/'; then deploy_provider=true; fi
           if changed '^packages/react-scheduling/'; then deploy_provider=true; fi
 
           deploy_any=false

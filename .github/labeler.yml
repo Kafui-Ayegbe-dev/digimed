@@ -15,12 +15,12 @@ example:
           - any-glob-to-any-file:
               - packages/examples/src/**/*
               - examples/*/src/**/*
-          - all-globs-to-all-files: '!examples/medplum-provider/**'
+          - all-globs-to-all-files: '!packages/provider/**'
 
 provider-app:
   - changed-files:
       - any-glob-to-any-file:
-          - examples/medplum-provider/src/**/*
+          - packages/provider/src/**/*
 
 auth:
   - changed-files:

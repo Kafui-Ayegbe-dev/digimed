@@ -1,5 +1,5 @@
 {
-  "name": "medplum-provider",
+  "name": "@digimed/provider",
   "version": "5.2.1",
   "private": true,
   "type": "module",
